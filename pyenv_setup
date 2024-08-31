@@ -1,8 +1,7 @@
 // use this command in vscode to setup a virtual env for python
 
-conda create -p venv python==3.10 -y 
-or 
-python3 -m venv env 
+- python3 -m venv env 
+- source /env/bin/activate
 
 - pip install --upgrade
 
