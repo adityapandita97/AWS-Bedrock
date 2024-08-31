@@ -6,4 +6,7 @@ conda create -p venv python==3.10 -y
 
 pip3 install -r requirements.txt
 
+// Also remember to use an IAM use from vscode so you can connect to AWS account and services as a user which has the permissions for bedrock
 
+aws configure
+enter the access key etc
