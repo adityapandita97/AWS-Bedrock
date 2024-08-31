@@ -1,0 +1,9 @@
+// use this command in vscode to setup a virtual env for python
+
+conda create -p venv python==3.10 -y
+
+// Since you create a requirements.txt with boto3 and import json
+
+pip3 install -r requirements.txt
+
+
